@@ -10,7 +10,7 @@
   --color-secondary: #19376d;
   --color-dark: #0b2447;
   /* --color-bg: #04152d; */
-  --color-bg: hsl(224 71.4% 4.1%);
+  --color-bg: rgb(3, 7, 17);
 
 
   /* Fonts */
@@ -26,4 +26,10 @@
 
 body{
   background-color: var(--color-bg);
+}
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
 }

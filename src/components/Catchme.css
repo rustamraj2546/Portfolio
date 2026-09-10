@@ -1,0 +1,28 @@
+.container{
+    height: 30rem;
+    /* width: 802px; */
+    padding: 2rem;
+    box-shadow: inset 0px 0px 20px 0px rgb(3, 7, 17);
+}
+
+.catch {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 100%;
+
+    background-image: linear-gradient(rgba(0, 0, 255, 0.8), rgba(19, 0, 129, 0.8), rgba(76, 0, 130, 0.8));
+    font-size: large;       
+    font-weight: bold;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+
+    cursor: pointer;
+    
+    text-shadow: 2px 1px 2px red;
+    position: relative;
+}

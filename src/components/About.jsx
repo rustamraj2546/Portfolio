@@ -1,7 +1,9 @@
+import Techicon from './Techicon';
+
 const About = () => {
     return (
         <div className="About">
-            About
+            <Techicon />
         </div>
     )
 }

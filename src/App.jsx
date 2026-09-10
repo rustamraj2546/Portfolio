@@ -7,7 +7,7 @@ import Navbar from './components/Navbar'
 function App() {
   return (
     <>
-    <div>
+    <div> 
       <Navbar />
       <Body />
       <Footer />

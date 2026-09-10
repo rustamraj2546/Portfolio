@@ -1,0 +1,50 @@
+.avatar {
+    z-index: 1;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.topBlur {
+    position: absolute;
+    width: 80%;
+    height: 15vw;
+    min-width: 150px;
+    min-height: 150px;
+    top: -128px;
+    left: 10vw;
+    border: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: -10;
+}   
+
+.bottomBlur {
+    position: absolute;
+    width: 80%;
+    height: 15vw;
+    min-width: 150px;
+    min-height: 150px;
+    bottom: -128px;
+    left: 10vw;  
+    border: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: -10;
+}
